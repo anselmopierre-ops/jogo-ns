@@ -56,7 +56,6 @@ function limparCampo() {
     chute = document.querySelector('input');
     chute.value = '';
 }
-
 function reiniciarJogo() {
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo();
@@ -64,10 +63,3 @@ function reiniciarJogo() {
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true)
 }
-
-
-
-
-
-
-
